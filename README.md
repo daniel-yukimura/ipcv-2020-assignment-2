@@ -16,7 +16,7 @@ more specifically we'll see it in the context of images. We'll also have our fir
 
 1. Create a folder in your Google Drive or in your machine's workspace. Copy to your drive folder or download the following notebook:
 
- [**Assignment 2 - notebook**](https://colab.research.google.com/drive/1t8gHrqvAQ_ip2Dr6nI3JOnkgRiSVqhAd?usp=sharing)
+ [**Assignment 2 - notebook**](https://colab.research.google.com/drive/13e41RXfb78HEC7TY7-o7x_BiLysdIEDv?usp=sharing)
 
 2. Follow the instructions in the notebook for completing the assignment.
 
