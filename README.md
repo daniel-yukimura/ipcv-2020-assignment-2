@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/daniel-yukimura/ipcv-2020-assignment-2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Assignment 2
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this assignment we'll practice some essential strategies for improving the performance of deep neural networks,
+more specifically we'll see it in the context of images. We'll also have our first practice with the [Decord](https://github.com/dmlc/decord/) tool for working with video data. Our goals for this assignment can then be summarized as the following:
 
-### Markdown
+* Practice modeling, using and training **Convolutional Neural Networks (CNNs)**
+* Understand and practice **Data Augmentation**
+* Learn how to use **Batch Normalization** and **Dropout** for regularizing neural networks.
+* Learn about different optimization methods, how to use then and choose their parameters.
+* Practice using the Decord tool for loading and processing videos.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Instructions:
 
-```markdown
-Syntax highlighted code block
+0. If you're using Google Colab, you just need to have a google account and an associated Google Drive. In case you're choosing to work locally in your machine you must set Anaconda or a `venv` virtual environment, and install the necessary libraries.
 
-# Header 1
-## Header 2
-### Header 3
+1. Create a folder in your Google Drive or in your machine's workspace. Copy to your drive folder or download the following notebook:
 
-- Bulleted
-- List
+ [**Assignment 2 - notebook**](https://colab.research.google.com/drive/1t8gHrqvAQ_ip2Dr6nI3JOnkgRiSVqhAd?usp=sharing)
 
-1. Numbered
-2. List
+2. Follow the instructions in the notebook for completing the assignment.
 
-**Bold** and _Italic_ and `Code` text
+3. You can build auxiliary `.py` scripts and call them from your notebook, for organizational purposes.
 
-[Link](url) and ![Image](src)
-```
+### Submission for IMPA students
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The assignment is due on **Friday, October 2 2020** at 11:59pm (GMT-3).
 
-### Jekyll Themes
+IMPA students that are regularly enrolled in the program should send their assignments before the due date to <yukimura@impa.br> with a copy to <lvelho@impa.br>. Late delivers will be consider subject to a lower score.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daniel-yukimura/ipcv-2020-assignment-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The submission email should be sent with the subject **"Assignment 2 - [first-name] - [last-name]"**. The assignment can be structured and sent in two ways:
+* If your whole solution is implemented in the same notebook as the one provided for the assignment, then you can send just the `.ipynb` file as the solution.
+* If parts of your implementation were done in auxiliary `.py` scripts, then you must send both the final notebook and the scripts inside a `.zip` file.
 
-### Support or Contact
+The organization of the code will also be considered in the evaluation.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### For remaining students:
+
+For students that are enrolled as "Aluno de Curso Livre" you must not send your assignment to us, since we'll not be able to evaluate them due to the large number of students and lack of resources from our side.
+
+For students following the course on this modality, we recall that all assignments will be corrected/solved during the Lab classes. Therefore, students must evaluate themselves by comparing our corrections with their solutions. Students taking the writing exam at the end of the semester will be expected to have solved all the assignments.
+
+### References:
+
+* [Slides](https://slides.com/danielyukimura/deck-493038): Introduction to PyTorch class.
+* [Slides](https://slides.com/danielyukimura/deep-video): Deep Video class.
