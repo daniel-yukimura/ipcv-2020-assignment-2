@@ -2,13 +2,13 @@
 ## Assignment 2
 
 In this assignment we'll practice some essential strategies for improving the performance of deep neural networks,
-more specifically we'll see it in the context of images. We'll also have our first practice with the [Decord](https://github.com/dmlc/decord/) tool for working with video data. Our goals for this assignment can then be summarized as the following:
+more specifically we'll see it in the context of images.<!--  We'll also have our first practice with the [Decord](https://github.com/dmlc/decord/) tool for working with video data.--> Our goals for this assignment can then be summarized as the following:
 
 * Practice modeling, using and training **Convolutional Neural Networks (CNNs)**
 * Understand and practice **Data Augmentation**
 * Learn how to use **Batch Normalization** and **Dropout** for regularizing neural networks.
 * Learn about different optimization methods, how to use then and choose their parameters.
-* Practice using the Decord tool for loading and processing videos.
+<!-- * Practice using the Decord tool for loading and processing videos.-->
 
 ### Instructions:
 
